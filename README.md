@@ -1,3 +1,22 @@
+# Introduction to React
+
+## Create React Project 
+    npx create-react-app <name_project_no_capital>
+
+## Install
+
+    npm install axios
+
+## Create Account & Login for Bitcoin API
+
+Please visit this website to register for free and login, then you can generate your API key and pass it to your React code (via axios lib)
+    
+    https://openapi.coinstats.app/
+
+## Store this API-key as Static Variable
+
+    export const CRYTO_KEY = 'your-api-key';
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
